@@ -1,0 +1,48 @@
+// contact.css
+// test absolute layout.
+
+h1 { color: #a84e50; }
+
+#about_div1 {
+	position: absolute;
+	background-image: url( ../images/bg_top.gif );
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	top:  140px;
+	left: 300px;
+	width: 300px;
+	height: 100px;
+}
+
+#about_div2 {
+	position: absolute;
+	background-image: url( ../images/lower_left.gif );
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	top:  240px;
+	left: 300px;
+	width: 100px;
+	height: 309px;
+}
+
+#container {
+    border: outset;
+    position: absolute;
+    background-image: url( ../images/lower_right_transparent.gif );
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin: 0px;
+    padding: 0px;
+	top: 238px ;
+	left: 400px;
+    height: 350px;
+    width: 300px;
+}
+
+#container p {
+	margin: 20px 20px 20px 20px;
+}

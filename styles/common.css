@@ -1,0 +1,32 @@
+
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	margin-right: 1em;
+}
+
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+
+
+/* Emphasize - dark blue */
+.color_emp {
+	color: blue;
+}
+
+/* 2ndary Emphasize - a light blue */
+.color_lt_emp {
+	font-family: Courier New, Courier, mono;
+	color: #666699;
+}
+
+/* Emphasize by drawing a box around section */
+.box_emp {
+	font-style: italic;
+	border: 2px ridge #e0e0e0;
+	padding: 4px 2px 4px 2px; 
+}
+
